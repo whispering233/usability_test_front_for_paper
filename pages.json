@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/news/news",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#909399",
+		"selectedColor":"#303133",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list": [{
+            "pagePath" : "pages/news/news",
+			"iconPath":"static/icon/news.svg",
+			"selectedIconPath":"static/icon/news_a.svg",
+			"text":"新闻"
+        }]
+	}
+}
+
+// {
+// 			"pagePath": "pages/index/index",
+// 			"text":"首页"
+// 		},
+// ,{
+// 			"pagePath":"pages/chart/chart",
+// 			"iconPath":"static/icon/chart.svg",
+// 			"selectedIconPath":"static/icon/chart_a.svg",
+// 			"text":"图表"
+// 		}
+
+
+// ,
+// 		{
+// 			"path": "pages/index/index",
+// 			"style": {
+// 				"navigationBarTitleText": "uni-app"
+// 			}
+// 		},
+//         {
+//             "path" : "pages/chart/chart",
+//             "style" :                                                                                    
+//             {
+//                 "navigationBarTitleText": "",
+//                 "enablePullDownRefresh": false
+//             }
+            
+//         }
